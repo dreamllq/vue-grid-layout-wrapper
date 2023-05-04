@@ -8,6 +8,14 @@
 npm i lc-vue-grid-layout-wrapper
 ```
 
+## 依赖
+
+- vue@3.x
+
+## Demo
+
+[demo](https://unpkg.com/lc-vue-grid-layout-wrapper/docs/.vitepress/dist/index.html) 
+
 ## 基本使用
 
 ```vue

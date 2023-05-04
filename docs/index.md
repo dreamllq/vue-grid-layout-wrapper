@@ -12,11 +12,6 @@ npm i lc-vue-grid-layout-wrapper
 
 - vue@3.x
 
-## Demo
-
-[demo](https://unpkg.com/lc-vue-grid-layout-wrapper/docs/.vitepress/dist/index.html) 
-
-
 ## 基础用法
 
 <el-form ref='formRef' :model='form' :rules='rules' label-position='top'>
