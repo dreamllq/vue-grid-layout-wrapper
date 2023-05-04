@@ -61,10 +61,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/dreamllq/vue-grid-layout-wrapper.git"
   },
   "keywords": [
     "vue",
-    "vue3"
+    "vue3",
+    "grid",
+    "layout"
   ]
 }
