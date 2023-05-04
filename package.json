@@ -1,14 +1,14 @@
 {
-  "name": "vite-vue3-ts-component-template",
+  "name": "lc-vue-grid-layout-wrapper",
   "description": "模板",
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/vite-vue3-ts-component-template.umd.cjs",
-  "module": "./dist/vite-vue3-ts-component-template.js",
+  "main": "./dist/lc-vue-grid-layout-wrapper.umd.cjs",
+  "module": "./dist/lc-vue-grid-layout-wrapper.js",
   "exports": {
     ".": {
-      "import": "./dist/vite-vue3-ts-component-template.js",
-      "require": "./dist/vite-vue3-ts-component-template.umd.cjs"
+      "import": "./dist/lc-vue-grid-layout-wrapper.js",
+      "require": "./dist/lc-vue-grid-layout-wrapper.umd.cjs"
     }
   },
   "files": [
