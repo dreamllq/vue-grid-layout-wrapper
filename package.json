@@ -1,7 +1,7 @@
 {
   "name": "lc-vue-grid-layout-wrapper",
   "description": "模板",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "main": "./dist/lc-vue-grid-layout-wrapper.umd.cjs",
   "module": "./dist/lc-vue-grid-layout-wrapper.js",
