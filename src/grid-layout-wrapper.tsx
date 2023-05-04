@@ -1,4 +1,4 @@
-import { defineComponent } from 'vue';
+import { VNode, defineComponent } from 'vue';
 
 export default defineComponent({ 
   props: {
@@ -11,7 +11,7 @@ export default defineComponent({
     if (this.$slots.default) {
       const vNodes = this.$slots.default();
       console.log('vNodes', vNodes);
-      const list:any[][] = [];
+      const list:VNode[][] = [];
       for (let i = 0; i < Math.ceil(vNodes.length / this.col); i++) {
         for (let j = 0; j < this.col; j++) {
           const index = i * this.col + j;
