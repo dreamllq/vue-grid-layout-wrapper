@@ -9,7 +9,7 @@ export default defineComponent({
   },
   render() { 
     if (this.$slots.default) {
-      const vNodes = this.$slots.default();
+      const vNodes = this.$slots.default().filter(node => typeof node.type !== 'symbol');
       console.log('vNodes', vNodes);
       const list:VNode[][] = [];
       for (let i = 0; i < Math.ceil(vNodes.length / this.col); i++) {
